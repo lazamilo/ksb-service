@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generates the KSI Servis redesign pages into site/. Run: python3 build.py"""
+"""Generates the KSI Servis redesign pages into the repo root. Run: python3 build.py"""
 from pathlib import Path
 
-OUT = Path(__file__).parent / "site"
+OUT = Path(__file__).parent
 PHONE = "031 329 250"
 PHONE_T = "+38631329250"
 
